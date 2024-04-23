@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+@font-face {
+  font-family: 'Onest';
+  src: url('/fonts/Onest/static/Onest-SemiBold.ttf');
+    src: url('/fonts/Onest-Regular.ttf');
+}
+body {
+  color: #244274;
+font-family: Onest-SemiBold;
+  max-width: 2000px;
+  min-width: 0;
+  margin: auto;
+  width: 100%;
+box-sizing: border-box;
+position: relative;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+}

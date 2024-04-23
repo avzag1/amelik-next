@@ -1,0 +1,54 @@
+/* .user-swiper .swiper-button-prev {
+  position: absolute;
+  top: auto;
+  left: 130px;
+  bottom: 50px;
+  color: white;
+  z-index: 50;
+  padding-right: 40px;
+}
+@media screen and (max-width: 768.0001px) {
+  .user-swiper .swiper-button-prev {
+    left: 40px;
+    top:190px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .user-swiper .swiper-button-prev {
+    bottom: 70px;
+  }
+}
+
+.user-swiper .swiper-button-next {
+  position: absolute;
+  top: auto;
+  left: 340px;
+  bottom: 50px;
+  color: white;
+  z-index: 30;
+  padding-left: 40px;
+}
+@media screen and (max-width: 768.0001px) {
+  .user-swiper .swiper-button-next {
+    left: auto;
+    right: 40px;
+    top:190px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .user-swiper .swiper-button-next {
+    bottom: 70px;
+  }
+}
+
+.user-swiper {
+  position: relative;
+  max-height: 550px;
+  overflow: hidden;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+  font-size: 35px;
+} */
